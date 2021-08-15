@@ -1,0 +1,239 @@
+body {
+  margin: 0px;
+}
+p {
+  font-size: 20px
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+/* Navigation */
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 10px;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  padding: 10px;
+}
+
+
+/* Link Colour */
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: hotpink;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+/* End of link colour */
+
+
+/* End of Navigation */
+
+
+/* Start of index page */
+
+.introcolumn {
+  display: flex;
+  float: none;
+  margin: 0 auto;
+  }
+.intro {
+  padding: 0px 20px;
+  text-align: center;
+}
+
+
+.faceimg {
+  display: solid;
+  border-radius: 20px;
+
+}
+.aboutme {
+  width: 1000px;
+  padding: 10px 15px;
+  text-align: left;
+  color:#f1f1f1;
+  background-color:black;
+  opacity: 0.7;
+  border-radius: 35px;
+
+
+}
+
+.backphoto {
+  background-image:url(../images/IMG_20210629_084842.jpg);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-clip: padding-box;
+
+}
+
+/* End of index page */
+
+
+/* Ideal Job Page */
+.idealjobheader {
+  text-align: center;
+}
+
+.seeking {
+  border: solid #A9A9A9;
+  border-radius: 10px;
+  margin: 0px 20px;
+  width:550px;
+  display: block;
+}
+
+.jobcolumns {
+  display:flex;
+  margin-left: 0 auto;
+}
+
+.jobcolumn {
+  width: 1000px;
+  padding: 10px 15px;
+  text-align: left;
+  color:#f1f1f1;
+  background-color:black;
+  opacity: 0.7;
+  border-radius: 35px
+}
+/* End of Jobs Page */
+
+/* Personal Profile */
+.result {
+  padding: 10px 15px;
+  text-align: center;
+  color:#f1f1f1;
+  background-color:black;
+  opacity: 0.8;
+  border-radius: 35px;
+  margin: 40px;
+  width: 1425px;
+  margin: 30px auto;
+}
+
+
+.resultpic {
+  height: 670px;
+  border:solid #A9A9A9;
+  border-radius: 50px;
+  margin-top: 0px;
+  margin-left: 250px;
+  display: solid;
+}
+
+.resultpic1 {
+  border: solid #A9A9A9;
+  border-radius: 50px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+/* End of Profile */
+
+
+/* Project Kenceh */
+.projectall {
+  text-align: center;
+  color:#f1f1f1;
+  padding: 20px;
+  margin: 10px 150px;
+}
+
+.summaryall {
+  background-color:black;
+  opacity: 0.5;
+  border-radius: 35px;
+  padding: 20px;
+  margin: 10px 150px;
+}
+
+.productdescription {
+  text-align: center;
+  color:#f1f1f1;
+  background-color:black;
+  opacity: 0.5;
+  border-radius: 35px;
+  padding: 20px;
+  margin: 40px 150px;
+}
+
+.costandstartup {
+  text-align: center;
+  color:#f1f1f1;
+  background-color:black;
+  opacity: 0.5;
+  border-radius: 35px;
+  padding: 20px;
+  margin: 0px 150px;
+}
+
+.skillsneeded {
+  text-align: center;
+  color:#f1f1f1;
+  background-color:black;
+  opacity: 0.6;
+  border-radius: 35px;
+  padding: 20px;
+  margin: 40px 150px;
+}
+
+.finaloutcome {
+  text-align:inherit;
+  color:#f1f1f1;
+  background-color:black;
+  opacity: 0.8;
+  border-radius: 35px;
+  margin: 0px 150px 150px;
+  padding-bottom: 10px;
+  font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* End of Kench*/
